@@ -1,0 +1,59 @@
+
+
+.center {
+      margin: auto;
+      text-align: center;
+      width: 60%;
+      padding: 10px;
+    }
+
+.hoverlink 
+a:hover:not(.active) {
+    color: rgb(92, 152, 89);
+}
+
+.link 
+a:hover {
+    text-decoration: none;
+}
+a:visited, a:link  {
+    color: rgb(238, 133, 179);
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* IMAGE GRID */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+.column {
+    flex: 25%;
+    max-width: 50%; 
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+  
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 70%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
