@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(47, 42, 63);
+}
 
 .center {
       margin: auto;
@@ -17,14 +19,14 @@ a:hover {
     text-decoration: none;
 }
 a:visited, a:link  {
-    color: rgb(238, 133, 179);
+    color: rgb(255, 252, 165);
     text-decoration: none;
     font-family: monospace;
     text-align: center;
     font-size: 15px;
 }
 
-/* IMAGE GRID */
+/* IMAGE GRID FOR art.html */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -57,3 +59,38 @@ a:visited, a:link  {
       max-width: 100%;
     }
   }
+
+
+/* ANIMATION */
+#test h1 {
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+#test h4 {
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+#test .hoverlink {
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+#test img {
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* ANIMATION END */
+
+#logos img {width: 100px;}
