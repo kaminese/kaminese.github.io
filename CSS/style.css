@@ -11,7 +11,7 @@ body {
 
 .hoverlink 
 a:hover:not(.active) {
-    color: rgb(92, 152, 89);
+    color: rgb(255, 151, 177);
 }
 
 .link 
