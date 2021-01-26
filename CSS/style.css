@@ -87,11 +87,13 @@ a:visited, a:link  {
 }
 
 
-.container__image {
+/* .container__image {
     border-radius: 50%; 
     width: 300px;
+    position: relative;
     padding-bottom: 20px;
-}
+} */
+
 .container__text {
     color: rgb(194, 194, 194);
     font-family: monospace;
